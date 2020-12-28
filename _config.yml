@@ -3,7 +3,7 @@ title_left    : "Idea"
 title_right   : "Syed" # default: ""
 description   : "Dev | Engineer | Hacker | Speaker @ FULL Creative"
 keywords      : "ideasyed, syed, umair, syedumair, umairsyed, syed umair, js developer, developer, engineer, software engineer"
-url           : https://syed-umair.github.io # site url
+url           : https://ideasyed.dev # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
