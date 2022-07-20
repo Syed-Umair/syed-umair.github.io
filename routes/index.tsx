@@ -9,7 +9,7 @@ export default function Home() {
 				<img
 					class={tw`w-72 h-72 rounded-full mx-auto`}
 					src="/Syed.jpeg"
-					alt="Syed Umair"
+					alt=""
 				/>
 				<div class={tw`pt-6 text-center space-y-4`}>
 					<blockquote>
