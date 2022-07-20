@@ -4,44 +4,31 @@ import { tw } from "@twind";
 
 export default function Home() {
 	return (
-		<html>
-			<head>
-				<title>Syed Umair</title>
-			</head>
-			<body>
-				<div
-					class={tw`flex flex-col h-screen justify-center items-center`}
-				>
-					<figure
-						class={tw`bg-slate-100 rounded-xl p-8 dark:bg-slate-800`}
-					>
-						<img
-							class={tw`w-72 h-72 rounded-full mx-auto`}
-							src="/Syed.jpeg"
-							alt="Syed Umair"
-						/>
-						<div class={tw`pt-6 text-center space-y-4`}>
-							<blockquote>
-								<p class={tw`text-lg font-medium`}>
-									“Success is being an integral part of
-									building products, without which my future
-									kids couldn't imagine living”
-								</p>
-							</blockquote>
-							<figcaption class={tw`font-medium`}>
-								<div class={tw`text-sky-500 dark:text-sky-400`}>
-									Syed Umair
-								</div>
-								<div
-									class={tw`text-slate-700 dark:text-slate-500`}
-								>
-									Module Lead, FULL Creative
-								</div>
-							</figcaption>
+		<div class={tw`flex flex-col h-screen justify-center items-center`}>
+			<figure class={tw`bg-slate-100 rounded-xl p-8 dark:bg-slate-800`}>
+				<img
+					class={tw`w-72 h-72 rounded-full mx-auto`}
+					src="/Syed.jpeg"
+					alt="Syed Umair"
+				/>
+				<div class={tw`pt-6 text-center space-y-4`}>
+					<blockquote>
+						<p class={tw`text-lg font-medium`}>
+							“Success is being an integral part of building
+							products, without which my future kids couldn't
+							imagine living”
+						</p>
+					</blockquote>
+					<figcaption class={tw`font-medium`}>
+						<div class={tw`text-sky-500 dark:text-sky-400`}>
+							Syed Umair
 						</div>
-					</figure>
+						<div class={tw`text-slate-700 dark:text-slate-500`}>
+							Module Lead, FULL Creative
+						</div>
+					</figcaption>
 				</div>
-			</body>
-		</html>
+			</figure>
+		</div>
 	);
 }
