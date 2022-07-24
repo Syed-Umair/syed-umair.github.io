@@ -8,7 +8,7 @@ export default function Home() {
 			<figure class={tw`bg-slate-100 rounded-xl p-8 dark:bg-slate-800`}>
 				<img
 					class={tw`w-72 h-72 rounded-full mx-auto`}
-					src="/Syed.jpeg"
+					src="/Syed.webp"
 					alt=""
 				/>
 				<div class={tw`pt-6 text-center space-y-4`}>
