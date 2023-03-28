@@ -7,7 +7,7 @@ export default function Home() {
 		<div class={tw`flex flex-col h-screen justify-center items-center`}>
 			<figure class={tw`bg-slate-100 rounded-xl p-8 dark:bg-slate-800`}>
 				<img
-					class={tw`w-72 h-72 rounded-full mx-auto`}
+					class={tw`w-72 h-72 object-cover rounded-full mx-auto`}
 					src="/Syed.webp"
 					alt=""
 				/>
